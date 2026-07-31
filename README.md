@@ -6,7 +6,7 @@ This project focuses on **multiclass fish species classification** using **Deep 
 
 The project demonstrates the complete deep learning pipeline, including dataset preprocessing, model development, training, evaluation, and local deployment.
 
-The dataset contains **11 different fish species**, and the trained CNN model achieved a **test accuracy of approximately 96.39%**. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The dataset contains **11 different fish species**, and the trained CNN model achieved a **test accuracy of approximately 96.39%**. 
 
 ---
 
@@ -36,8 +36,7 @@ The dataset contains **11 fish species** with:
 | Validation | 1,092 |
 | Testing | 3,187 |
 
-Images were resized, normalized, and augmented before training. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
-
+Images were resized, normalized, and augmented before training. 
 ---
 
 ## 🛠 Technologies Used
@@ -73,7 +72,7 @@ The model was compiled using:
 
 - Optimizer: Adam
 - Loss Function: Sparse Categorical Crossentropy
-- Metric: Accuracy :contentReference[oaicite:4]{index=4}
+- Metric: Accuracy
 
 ---
 
@@ -89,7 +88,7 @@ The preprocessing pipeline includes:
   - Random Zoom
 - Dataset shuffling
 - Caching
-- Prefetching for improved training performance :contentReference[oaicite:5]{index=5}
+- Prefetching for improved training performance 
 
 ---
 
@@ -99,8 +98,7 @@ The preprocessing pipeline includes:
 - Batch Size: 32
 - Optimizer: Adam
 
-Training and validation accuracy improved consistently over the epochs, indicating effective learning by the CNN model. :contentReference[oaicite:6]{index=6}
-
+Training and validation accuracy improved consistently over the epochs, indicating effective learning by the CNN model. 
 ---
 
 ## 📊 Results
@@ -109,14 +107,14 @@ Training and validation accuracy improved consistently over the epochs, indicati
 
 **96.39%**
 
-The model achieved strong classification performance on unseen test data. :contentReference[oaicite:7]{index=7}
+The model achieved strong classification performance on unseen test data. 
 
 Performance visualization includes:
 
 - Training Accuracy
 - Validation Accuracy
 - Training Loss
-- Validation Loss :contentReference[oaicite:8]{index=8}
+- Validation Loss 
 
 ---
 
@@ -138,8 +136,7 @@ The trained CNN model was successfully deployed locally, enabling fish species p
 
 ## ⚠️ Note
 
-Transfer Learning with **MobileNetV2** was explored during development. However, due to hardware memory limitations, it could not be fully trained on the available system. The implementation remains a planned enhancement for future work. :contentReference[oaicite:9]{index=9}
-
+Transfer Learning with **MobileNetV2** was explored during development. However, due to hardware memory limitations, it could not be fully trained on the available system. The implementation remains a planned enhancement for future work. 
 ---
 
 ## 📁 Project Structure
